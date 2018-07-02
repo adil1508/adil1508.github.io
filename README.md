@@ -1,2 +1,4 @@
 # adil1508.github.io
-Personal website.
+Personal website. 
+
+Learning WebDev while building it from scratch.
