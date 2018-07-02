@@ -69,19 +69,24 @@ header {
     font-family: 'Encode Sans Condensed';
     font-size: 20px;
     text-align: center;
-    padding: 10px;
+    padding: 1vh 1vw;
     background: #06000a;
 }
 
+ul {
+    
+    padding: 0%;
+}
+
 .header-nav ul li {
-    display: inline;
-    padding: 0px 50px;
+    display: inline-block;
+    padding: 1vh 10vw;
 }
 
 .header-nav a {
     text-decoration: none;
     color: #e6e6e8;
-    padding: 0px 30px;
+    padding: 0vh 2vw;   
 }
 
 .header-nav a:hover {
@@ -103,12 +108,12 @@ footer {
     background: #06000a;
     text-align: center;
     margin: 0px;
-    padding: 10px;
+    padding: 1vh;
 }
 
 .footer-nav ul li {
     display: inline;
-    padding: 0px;
+    padding: 0vh;
 }
 
 .footer-nav a {
@@ -116,7 +121,7 @@ footer {
     font-size: 20px;
     text-decoration: none;
     color: #e6e6e8;
-    padding: 0px 50px;
+    padding: 0vh 10vw;
 }
 
 .footer-nav a:hover {
