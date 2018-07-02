@@ -112,7 +112,7 @@ footer {
 }
 
 .footer-nav ul li {
-    display: inline;
+    display: inline-block;
     padding: 0vh;
 }
 
