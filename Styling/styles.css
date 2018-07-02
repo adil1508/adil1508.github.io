@@ -1,0 +1,132 @@
+
+/*
+    Color Pallete: Cool vs Warm
+        Colors:
+            Navy Blue: #18121e
+            Gunmetal: #233237
+            Rusty Red: #984b43
+            Warm Yellow: #eac67a
+
+    Color Pallete: Baku 2015
+        Colors:
+            Purple: #300032
+            Black: #06000a
+            Red: #c43235
+            White-grey: #e6e6e8
+
+    Color Pallete: Nissan
+        Colors:
+            Grey: #bdbec0
+            Orange: #c95c3f
+            black: #191b1e
+
+    Debuggin snippet:
+        border: #c43235 solid 1px
+
+*/
+
+/*
+  Global document styles
+*/
+
+/*
+    General html fix
+*/
+html {
+    box-sizing: border-box;
+    
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+
+body {
+    margin: 0;  
+    background: #ffffff;
+    color: #474b4f;
+    font-family: 'Encode Sans Condensed';
+}
+
+main {
+    height: 100%;
+    text-align: center;
+}
+
+
+/* 
+    header
+*/
+
+header {
+    top: 0;
+    min-width: 100%;
+    
+}
+
+.header-nav {
+    font-family: 'Encode Sans Condensed';
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    background: #06000a;
+}
+
+.header-nav ul li {
+    display: inline;
+    padding: 0px 50px;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: #e6e6e8;
+    padding: 0px 30px;
+}
+
+.header-nav a:hover {
+    color: #c43235;
+}
+
+/* 
+    footer
+*/
+
+footer {
+    position: absolute;
+    bottom: 0;
+    min-width: 100%;
+    margin: 0;
+}
+
+.footer-nav {
+    background: #06000a;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+.footer-nav ul li {
+    display: inline;
+    padding: 0px;
+}
+
+.footer-nav a {
+    font-family: 'Encode Sans Condensed';
+    font-size: 20px;
+    text-decoration: none;
+    color: #e6e6e8;
+    padding: 0px 50px;
+}
+
+.footer-nav a:hover {
+    color: #c43235;
+}
+
+/*
+    Page content styles
+*/
+
+/*
+    other styles
+*/ 
