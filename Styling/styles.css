@@ -66,19 +66,27 @@ main {
     font-family: 'Encode Sans Condensed';
     font-size: 20px;
     padding: 1vh 1vw; 
-    display: table;
-    clear: both;
+    display: flex;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .logo {
     padding: 0%;
-    float: left;
+    /* float: left; */
     min-width: 75px;
     max-width: 75px;
+    min-height: 75px;
+    max-height: 75px;
 }
 
 .header-nav nav {
-    float: right;
+    /* float: right; */
+    justify-content: flex-end;
 }
 
 .header-nav ul {
@@ -96,7 +104,7 @@ main {
     text-decoration: none;
     text-transform: uppercase;
     color: #e6e6e8;
-    padding: 5px; 
+    padding: 0; 
 }
 
 .header-nav a:hover{
