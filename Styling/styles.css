@@ -47,6 +47,8 @@ body {
     background: #ffffff;
     color: #474b4f;
     font-family: 'Encode Sans Condensed';
+    display: flex;
+    flex-direction: column;
 }
 
 main {
@@ -60,12 +62,11 @@ main {
 */
 
 .header-nav {
-    top: 0;
     min-width: 100%;   
     background: #06000a;
     font-family: 'Encode Sans Condensed';
     font-size: 20px;
-    padding: 1vh 1vw; 
+    padding: 5px; 
     display: flex;
 }
 
@@ -75,13 +76,15 @@ main {
     width: 100%;
 }
 
+
 .logo {
-    padding: 0%;
+    padding: 0px;
+    margin-left: 5px;
     /* float: left; */
-    min-width: 75px;
-    max-width: 75px;
-    min-height: 75px;
-    max-height: 75px;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
 }
 
 .header-nav nav {
@@ -92,12 +95,15 @@ main {
 .header-nav ul {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .header-nav ul li {
-    display: inline-block;
+    justify-content: flex-end;
     text-align: center;
-    padding: 20px 20px;
+    padding: 20px;
+    list-style: none;
 }
 
 .header-nav a {
@@ -115,29 +121,20 @@ main {
     footer
 */
 
-footer {
+.footer-nav {
     position: absolute;
     bottom: 0;
     min-width: 100%;
     margin: 0;
-}
-
-.footer-nav {
     background: #06000a;
-    text-align: center;
-    margin: 0px;
     padding: 1vh;
-    clear: both;
+    display: flex;
 }
 
 .footer-nav nav {
-    float: right;
+    margin: auto;
 }
 
-.footer-nav ul li {
-    display: inline-block;
-    padding: 0vh;
-}
 
 .footer-nav a {
     font-family: 'Encode Sans Condensed';
