@@ -102,7 +102,7 @@ main {
 .header-nav ul li {
     justify-content: flex-end;
     text-align: center;
-    padding: 20px;
+    padding: 25px 20px;
     list-style: none;
 }
 
@@ -110,7 +110,8 @@ main {
     text-decoration: none;
     text-transform: uppercase;
     color: #e6e6e8;
-    padding: 0; 
+    padding: 0;
+    font-size: 18px; 
 }
 
 .header-nav a:hover{
@@ -138,7 +139,7 @@ main {
 
 .footer-nav a {
     font-family: 'Encode Sans Condensed';
-    font-size: 20px;
+    font-size: 17px;
     text-decoration: none;
     color: #e6e6e8;
     padding: 0vh 2vw;
