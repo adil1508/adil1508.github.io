@@ -73,9 +73,8 @@ main {
 .logo {
     padding: 0%;
     float: left;
-    width: 5%;
-    min-width: 50px;
-    max-width: 200px;
+    min-width: 75px;
+    max-width: 75px;
 }
 
 .header-nav nav {
