@@ -130,19 +130,15 @@ main {
     background: #06000a;
     padding: 1vh;
     display: flex;
+    justify-content: center;
 }
-
-.footer-nav nav {
-    margin: auto;
-}
-
 
 .footer-nav a {
     font-family: 'Encode Sans Condensed';
-    font-size: 17px;
+    font-size: 18px;
     text-decoration: none;
     color: #e6e6e8;
-    padding: 0vh 2vw;
+    padding: 0px 30px;
 }
 
 .footer-nav a:hover {
