@@ -12,53 +12,54 @@
     <!-- icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
         crossorigin="anonymous">
-    <!-- <script src="main.js"></script> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- sideNav -->
+    <script src="Scripts/sideNav.js"></script>
 </head>
 
-<body>
+<body id="main">
+
+
     <header class="header-nav">
         <div class="nav-container">
-            <img class="logo" src="Images/logo.png" title="logo" />
             <nav>
-                <ul>
-                    <li>
-                        <a href="index.html" title="Home page">Home</a>
-                    </li>
-                    <li>
-                        <a href="projects.html" title="Projects page">Projects</a>
-                    </li>
-                    <li>
-                        <a href="resume.html" title="Resume page">Resume</a>
-                    </li>
-                    <li>
-                        <a href="blog.html" title="Blog">Blog</a>
-                    </li>
-                </ul>
+                <div id="mySidenav" class="sidenav">
+                    <a class="nav-link" href="index.html" title="Home page">Home</a>
+                    <a class="nav-link" href="projects.html" title="Projects page">Projects</a>
+                    <a class="nav-link" href="resume.html" title="Resume page">Resume</a>
+                    <a class="nav-link" href="blog.html" title="Blog">Blog</a>
+                </div>
+                <span onclick="toggleNav()">
+                    <i class="fas fa-bars"></i>
+                </span>
             </nav>
+            <img class="logo" src="Images/logo.png" title="logo" />
         </div>
     </header>
 
-    <!--Main content of the page-->
-    <main>
-        <h1>
-            Welcome!
-        </h1>
-        <article>
-            <h2>Under Construction</h2>
-        </article>
-    </main>
+    <div>
+        <!--Main content of the page-->
+        <main>
+            <h1>
+                Welcome!
+            </h1>
+            <article>
+                <h2>Under Construction</h2>
+            </article>
+        </main>
 
-    <!--Footer of page-->
-    <footer class="footer-nav">
-        <nav>
-            <a href="https://github.com/adil1508" title="link to Github account">
-                <i class="fab fa-github"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/adilmian" title="link to LinkedIn account">
-                <i class="fab fa-linkedin"></i>
-            </a>
-        </nav>
-    </footer>
+        <!--Footer of page-->
+        <footer class="footer-nav">
+            <nav>
+                <a href="https://github.com/adil1508" title="link to Github account">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/adilmian" title="link to LinkedIn account">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </nav>
+        </footer>
+    </div>
 
 
 </body>
