@@ -27,7 +27,7 @@
 
 
     Debuggin snippet:
-        border: #c43235 solid 1px
+        border: #c43235 solid 1px;
 
 */
 
@@ -212,11 +212,16 @@ main {
     */
     .nav-link {
         font-size: 85%;
-        padding: 12px;
+        padding: 5px;
+    }
+
+    .first-column, .second-column {
+        display: flex;
+        flex-direction: column;
     }
 
     .nav-container nav {
-        flex-direction: column;
+        flex-direction: row;
     }
     .logo {
         padding: 0px;
