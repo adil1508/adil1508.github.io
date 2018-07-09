@@ -13,25 +13,26 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
         crossorigin="anonymous">
     <!-- sideNav -->
-    <script src="Scripts/sideNav.js"></script>
+    <script src="Scripts/navBars.js"></script>
 </head>
 
 <body id="main">
 
+    <!-- Header -->
     <header class="header-nav">
         <div class="nav-container">
+            <img class="logo" src="Images/logo.png" title="logo" />
             <nav>
-                <div id="mySidenav" class="sidenav">
+                <div class="first-column">
                     <a class="nav-link" href="index.html" title="Home page">Home</a>
                     <a class="nav-link" href="projects.html" title="Projects page">Projects</a>
-                    <a class="nav-link" href="resume.html" title="Resume page">Resume</a>
-                    <a class="nav-link" href="blog.html" title="Blog">Blog</a>
                 </div>
-                <span onclick="toggleNav()">
-                    <i class="fas fa-bars"></i>
-                </span>
+                <div class="second-column">
+                    <a class="nav-link" href="resume.html" title="Resume page">Resume</a>
+                    <a class="nav-link" href="#" onclick="toggleContactBar()" title="Contact">Contact</a>
+                </div>
             </nav>
-            <img class="logo" src="Images/logo.png" title="logo" />
+        </div>
         </div>
     </header>
 
@@ -49,12 +50,15 @@
     </main>
 
     <!--Footer of page-->
-    <footer class="footer-nav">
+    <footer id="footerNav" class="footer-nav">
         <nav>
-            <a href="https://github.com/adil1508" title="link to Github account">
+            <a class="contact-link" href="https://github.com/adil1508" title="link to Github account">
                 <i class="fab fa-github"></i>
             </a>
-            <a href="https://www.linkedin.com/in/adilmian" title="link to LinkedIn account">
+            <a class="contact-link" href="mailto:adilmian95@gmail.com" title="Email me">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a class="contact-link" href="https://www.linkedin.com/in/adilmian" title="link to LinkedIn account">
                 <i class="fab fa-linkedin"></i>
             </a>
         </nav>
