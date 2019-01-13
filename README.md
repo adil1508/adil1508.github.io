@@ -8,6 +8,10 @@ Learning WebDev while building it from scratch.
 ## Version Changelog
 
 * 13 Jan, 2019
+0.11 -> 0.111
+Commiting structure. just html plus CDNs
+
+* 13 Jan, 2019
 0.10 -> 0.11
 Restarting project. Scrapped everything. New year new me and all that jazz...
 
