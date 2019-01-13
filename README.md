@@ -7,6 +7,10 @@ Learning WebDev while building it from scratch.
 
 ## Version Changelog
 
+* 13 Jan, 2019
+0.10 -> 0.11
+Restarting project. Scrapped everything. New year new me and all that jazz...
+
 * 8 July, 2018
 0.02 -> 0.10
 Shifted sliding bar to footer(used by contact). Design(color palette atleast) mostly settled
