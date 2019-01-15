@@ -37,7 +37,7 @@ body {
 h1, h2, h3 {
     font-weight: 300;
     margin-top: 0px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 h1 {
@@ -351,16 +351,18 @@ nav a#toggle-btn {
 
 
 #contact {
-    width: 100%;
-    
+    width: 100%; 
     padding: 6em 0;
     margin: 0;
+    /* border: 1px solid white; */
     display: flex;
     flex-flow: row;
     justify-content: center;
 }
 
 #contact .container {
+    
+    /* border: 1px solid white; */
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -370,22 +372,25 @@ nav a#toggle-btn {
     color: #d9d9d9;
     font-size: 40px;
     font-family: 'Montserrat';
+    text-align: center;
+    /* border: 1px solid white; */
 }
 
 
 .contactBar {
+    
+    /* border: 1px solid white; */
     display: flex;
     width: 700px;
     flex-flow: row;
     justify-content: space-between;
     margin-top: 50px;
-    /* border: 1px solid white; */
 }
 
 .contactLink {
-    font-size: 50px;
-    width: 100px;
+    font-size: 60px;
     color: white;
+    /* border: 1px solid white; */
     transition: color 0.3s;
     width: 100px;
 }
@@ -421,6 +426,7 @@ a.contactLink:hover {
     left: 0;
     right: 0;
     background: #d9d9d9;
+    border-radius: 30%;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 50%;
