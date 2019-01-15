@@ -8,6 +8,10 @@ Learning WebDev while building it from scratch.
 ## Version Changelog
 
 * 15 Jan, 2019
+0.112 -> 0.113
+Added 'About me' section. Integrated contact section into here
+
+* 15 Jan, 2019
 0.111 -> 0.112
 Added in projects and finished structure for the home page
 
