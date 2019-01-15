@@ -13,12 +13,6 @@ $(function() {
           }
     });
 
-    $('nav li').on('click', function(e) {
-          var w = $(window).width();
-          if(w < 580) {
-                menu.slideToggle();
-          }
-    });
     $('.open-menu').height($(window).height());
 });
 

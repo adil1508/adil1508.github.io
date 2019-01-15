@@ -8,6 +8,10 @@ Learning WebDev while building it from scratch.
 ## Version Changelog
 
 * 15 Jan, 2019
+0.12 -> 0.121
+Started fixing mobile verion. Onward on the path to full responsiveness
+
+* 15 Jan, 2019
 0.113 -> 0.12
 Initial desktop version is active. Added in styling and JS
 

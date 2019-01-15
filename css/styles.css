@@ -101,26 +101,29 @@ nav {
     height: 60px;
     width: 100%;
     /* To make it sticky */
-    position: fixed;    
+    position: fixed; 
 }
 
 nav ul {
     padding: 0;
     margin: 0;
-    display: inline;
+    display: flex;
+    flex-flow: row;
 }
 
 .navBar li {
-    display: inline;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    padding: 25px;
 }
 
 nav a {
-    display: inline-block;
+    /* display: inline-block; */
     width: 100px;
     font-family: 'Lato';
     text-align: center;
     text-decoration: none;
-    padding: 20px 0;
     color: #d9d9d9;
     transition: color 0.3s;
 }
@@ -130,81 +133,28 @@ nav a:hover {
     transition: color 0.3s;
 }
 
-nav a#toggle-btn {
-    display: none;
-}
-
 
 @media screen and (max-width: 580px){
-    nav {
-        height: auto;
-        border-bottom: 0;
-    }
 
     nav ul {
-        display: none;
-        height: auto;
+        justify-content: space-around;
     }
 
-    nav li {
-        width: 100%;
-        float: left;
-        position: relative;
+    .navBar li {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        padding: 15px;
     }
 
     nav a {
-        text-align: left;
-        width: 100%;
-        text-indent: 25px;
-        background: #282627;
-        color: #8d8273;
+        font-size: 13px;
     }
-
-    nav a:hover {
-        color: #6c6c6c;
-    }
-
-    nav a#toggle-btn:after {
-        content: '|||';
-        transform: rotate(-90deg);
-        width: 40px;
-        height: 40px;
-        display: inline-block;
-        position: absolute;
-        right: 5px;
-        top: 10px;
-    }
-
-    nav a#toggle-btn {
-        display: block;
-        background: #282627;
-        color: #8d8273;
-        width: 100%;
-        position: relative;
-    }
-
-    .navBar:before, .navBar:after {
-        content: "";
-        display: table;
-    }
-
-    .navBar:after {
-        clear: both;
-    }
-
-    .navBar {
-        zoom: 1;
-    }
+    
 }
 
 
 /* 'Home' section content */
-
-#profile {
-    width: 275px;
-    height: 300px;
-    border-radius: 50%;
-}
 
 .main-section {
     width: 100%;
@@ -240,14 +190,32 @@ nav a#toggle-btn {
     height: 100%;
 }
 
+.bottomTextMain {
+    font-size: 35px;
+    color: #d80f0f;
+}
+
 
 @media screen and (max-width: 580px){
-
-    #profile {
-        width: 100px;
-        height: 100px;
-        border-radius: 35%;
+    
+    .main-section h1 {
+        /* font-weight: lighter; */
+        font-size: 50px;
+        margin: 10px;
+        font-family: 'Open Sans';
     }
+
+    .main-section h3 {
+        font-size: 15px;
+        color: #d9d9d9;
+        font-family: 'Montserrat';
+        margin-top: 10px;
+    }
+
+    .bottomTextMain {
+        font-size: 22px;
+    }
+    
 }
 
 /* projects */
