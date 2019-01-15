@@ -8,6 +8,10 @@ Learning WebDev while building it from scratch.
 ## Version Changelog
 
 * 15 Jan, 2019
+0.113 -> 0.12
+Initial desktop version is active. Added in styling and JS
+
+* 15 Jan, 2019
 0.112 -> 0.113
 Added 'About me' section. Integrated contact section into here
 
