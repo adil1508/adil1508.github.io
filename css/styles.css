@@ -120,7 +120,7 @@ nav ul {
 
 nav a {
     /* display: inline-block; */
-    width: 100px;
+    width: 100%;
     font-family: 'Lato';
     text-align: center;
     text-decoration: none;
@@ -149,7 +149,6 @@ nav a:hover {
 
     nav a {
         font-size: 13px;
-        width: 100%;
     }
     
 }
