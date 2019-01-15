@@ -264,11 +264,8 @@ nav a:hover {
 
 
 @media screen and (max-width: 580px){
-    .project-content{
-        display: grid;
-        grid-gap: 20px;
-        grid-template-columns: repeat(1, 1fr);
-        text-align: left;
+    #projects {
+        display: none;
     }
 }
 
@@ -304,14 +301,14 @@ nav a:hover {
 
 
 @media screen and (max-width: 580px){
+    #about {
+        display: none;
+    }
     .about-content{
         display: grid;
         grid-gap: 20px;
         grid-template-columns: repeat(1, 1fr);
         text-align: left;
-    }
-    #about {
-        height: 100%;
     }
 }
 
