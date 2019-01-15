@@ -7,6 +7,10 @@ Learning WebDev while building it from scratch.
 
 ## Version Changelog
 
+* 15 Jan, 2019
+0.111 -> 0.112
+Added in projects and finished structure for the home page
+
 * 13 Jan, 2019
 0.11 -> 0.111
 Commiting structure. just html plus CDNs
