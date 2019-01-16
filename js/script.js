@@ -35,7 +35,7 @@ $('a[href*="#"]')
                       scrollTop: target.offset().top
                 }, 1000, function() {
                       var $target = $(target);
-                      $target.focus();
+                  //     $target.focus();
                       if($target.is(":focus")) {
                             return false;
                       } else {

@@ -275,13 +275,16 @@ nav a:hover {
         order: 1;
         font-size: 25px;
         margin-bottom: 10px;
+        padding: 20px;
     }
+
     
     .projectText p {
         order: 3;
-        /* padding-top: 0px; */
+        padding: 0px 20px;
         font-size: 13px;
-        width: 100%;
+        width: 300px;
+        /* max-width: 100%; */
         /* border: 1px solid white; */
     }
 
@@ -356,11 +359,6 @@ nav a:hover {
         order: 1;
     }
 
-    .contact-content {
-        display: none;
-    }
-
-
 }
 
 /* Contact */
@@ -389,12 +387,12 @@ nav a:hover {
     font-size: 40px;
     font-family: 'Montserrat';
     text-align: center;
+    padding-left: 25px;
     /* border: 1px solid white; */
 }
 
 
 .contactBar {
-    
     /* border: 1px solid white; */
     display: flex;
     width: 700px;
@@ -414,6 +412,34 @@ nav a:hover {
 a.contactLink:hover {
     color: #141311;
     transition: color 0.3s; 
+}
+
+@media screen and (max-width: 580px){
+
+    .contact-content h2 {
+        padding-left: 0px;
+        font-size: 0%;
+        /* border: 1px solid white; */
+    }
+
+    .contactBar {
+        /* border: 1px solid white; */
+        display: flex;
+        width: 100%;
+        flex-flow: row;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    
+    .contactLink {
+        font-size: 50px;
+        color: white;
+        /* border: 1px solid white; */
+        transition: color 0.3s;
+        width: 100px;
+    }
+
+
 }
 
 
