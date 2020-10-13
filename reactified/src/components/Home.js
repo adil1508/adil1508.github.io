@@ -4,9 +4,9 @@ import "./Home.css";
 
 const Home = () => {
 	return (
-		<div className='background'>
-			<p>hi, i'm adil</p>
-			<p>i like to code</p>
+		<div className='App-header'>
+			<img src={logo} className='App-logo' alt='logo' />
+			<p>React-ification in process</p>
 		</div>
 	);
 };
