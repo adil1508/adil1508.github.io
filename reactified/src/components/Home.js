@@ -51,8 +51,12 @@ const Home = () => {
 				<Link to='/projects'>
 					<ColorButton>Projects</ColorButton>
 				</Link>
-				<ColorButton>Resume</ColorButton>
-				<ColorButton>Me</ColorButton>
+				<Link to='/resume'>
+					<ColorButton>Resume</ColorButton>
+				</Link>
+				<Link to='/me'>
+					<ColorButton>Me</ColorButton>
+				</Link>
 			</div>
 		</div>
 	);
