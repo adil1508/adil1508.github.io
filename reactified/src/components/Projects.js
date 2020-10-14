@@ -1,9 +1,11 @@
 import React from "react";
+import "./Projects.css";
+import Header from "./Header";
 
 const Projects = () => {
 	return (
 		<div>
-			<h1>Projects</h1>
+			<Header title='Projects' />
 		</div>
 	);
 };

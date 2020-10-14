@@ -5,9 +5,6 @@
 	flex-direction: column;
 }
 
-.resume-header {
-}
-
 .resume-bottom {
 	flex-grow: 1;
 	align-self: center;
