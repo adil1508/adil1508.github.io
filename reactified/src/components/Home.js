@@ -33,7 +33,7 @@ const Home = () => {
 						},
 						interactivity: {
 							events: {
-								onhover: {
+								onHover: {
 									enable: true,
 									mode: "attract",
 								},
