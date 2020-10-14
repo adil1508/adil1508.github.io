@@ -11,7 +11,7 @@ import { HashRouter, Route } from "react-router-dom";
 function App() {
 	return (
 		<HashRouter>
-			<Route exact path='/' component={Project} />
+			<Route exact path='/' component={Home} />
 			<Route exact path='/projects' component={Projects} />
 			<Route exact path='/resume' component={Resume} />
 			<Route exact path='/me' component={Me} />

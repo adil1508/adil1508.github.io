@@ -13,6 +13,10 @@
 	box-shadow: 10px 10px 50px;
 }
 
+.test {
+	max-width: 10;
+}
+
 .resume-bottom:hover {
 	webkit-filter: blur(2px); /* Chrome, Safari, Opera */
 	filter: blur(2px);
