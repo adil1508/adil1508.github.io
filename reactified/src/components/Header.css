@@ -1,0 +1,12 @@
+.header-root {
+	display: flex;
+	background-color: #151a28;
+	justify-content: flex-start;
+}
+
+.header-title {
+	font-family: Helvetica;
+	font-size: 2.5vw;
+	color: whitesmoke;
+	padding: 5%;
+}

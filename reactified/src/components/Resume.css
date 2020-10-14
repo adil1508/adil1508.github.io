@@ -1,0 +1,13 @@
+.resume-root {
+	/* border: 5px solid red; */
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.resume-header {
+}
+
+.resume-bottom {
+	flex-grow: 1;
+}
