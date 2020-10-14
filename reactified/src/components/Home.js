@@ -22,7 +22,25 @@ const Home = () => {
 	return (
 		<div className='root-container'>
 			<div style={{ position: "absolute" }}>
-				<Particles width='99vw' height='99vh' />
+				<Particles
+					width='99vw'
+					height='99vh'
+					params={{
+						particles: {
+							number: {
+								value: 100,
+							},
+						},
+						interactivity: {
+							events: {
+								onhover: {
+									enable: true,
+									mode: "attract",
+								},
+							},
+						},
+					}}
+				/>
 			</div>
 			<div className='main-text-container'>
 				<p className='main-text'>hi, i'm adil</p>
@@ -31,7 +49,7 @@ const Home = () => {
 			<div className='navigation'>
 				<ColorButton>Projects</ColorButton>
 				<ColorButton>Resume</ColorButton>
-				<ColorButton>Me!</ColorButton>
+				<ColorButton>Me</ColorButton>
 			</div>
 		</div>
 	);
