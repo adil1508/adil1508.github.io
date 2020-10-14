@@ -10,4 +10,14 @@
 
 .resume-bottom {
 	flex-grow: 1;
+	align-self: center;
+	position: absolute;
+	margin-top: 5%;
+	box-shadow: 10px 10px 50px;
+}
+
+.resume-bottom:hover {
+	webkit-filter: blur(2px); /* Chrome, Safari, Opera */
+	filter: blur(2px);
+	cursor: pointer;
 }

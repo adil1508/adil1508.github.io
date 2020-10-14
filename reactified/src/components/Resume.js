@@ -1,5 +1,7 @@
 import React from "react";
+import { Document, Page } from "react-pdf/dist/umd/entry.webpack";
 import Header from "./Header";
+import resume from "./resume.pdf";
 import "./Resume.css";
 
 const Resume = () => {
@@ -8,7 +10,13 @@ const Resume = () => {
 			<div className='resume-header'>
 				<Header title='Resume' />
 			</div>
-			<div className='resume-bottom'></div>
+			<div className='resume-bottom'>
+				<a href={resume} download='AdilMian.pdf'>
+					<Document file={resume}>
+						<Page pageNumber={1} />
+					</Document>
+				</a>
+			</div>
 		</div>
 	);
 };
