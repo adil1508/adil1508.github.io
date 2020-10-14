@@ -1,7 +1,7 @@
 import React from "react";
 import { withStyles } from "@material-ui/core/styles";
 import { Button } from "@material-ui/core";
-import { purple } from "@material-ui/core/colors";
+import Particles from "react-particles-js";
 import "./Home.css";
 
 const ColorButton = withStyles(() => ({
@@ -21,6 +21,9 @@ const ColorButton = withStyles(() => ({
 const Home = () => {
 	return (
 		<div className='root-container'>
+			<div style={{ position: "absolute" }}>
+				<Particles width='99vw' height='99vh' />
+			</div>
 			<div className='main-text-container'>
 				<p className='main-text'>hi, i'm adil</p>
 				<p className='main-text'>i like to code</p>
