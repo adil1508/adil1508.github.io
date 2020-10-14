@@ -1,0 +1,11 @@
+.me-card {
+	flex-grow: 1;
+	align-self: center;
+	position: absolute;
+	margin-top: 10%;
+}
+
+.me-text {
+	font-family: Helvetica;
+	font-size: 18px;
+}

@@ -8,7 +8,7 @@ const Resume = () => {
 	const width = useWindowWidth();
 	return (
 		<div className='resume-root'>
-			<div className='resume-header'>
+			<div>
 				<Header title='Resume' />
 			</div>
 			<div className='resume-bottom'>
