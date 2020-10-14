@@ -1,8 +1,31 @@
 import React from "react";
 import "./Me.css";
+import { withStyles } from "@material-ui/core/styles";
+import { Button } from "@material-ui/core";
+import IconButton from "@material-ui/core/IconButton";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import EmailIcon from "@material-ui/icons/Email";
 import Header from "./Header";
 import image from "./images/profile.jpg";
-import { Card, Image } from "antd";
+import { Card } from "antd";
+import { Link } from "react-router-dom";
+
+const ColorButton = withStyles(() => ({
+	root: {
+		color: "#fff",
+		margin: "0.5em",
+		paddingInline: "1em",
+		width: "10em",
+		fontFamily: "Helvetica",
+		backgroundColor: "#1D2C34",
+		fontSize: "1vw",
+		"&:hover": {
+			backgroundColor: "white",
+			color: "#1D2C34",
+		},
+	},
+}))(Button);
 
 const Me = () => {
 	return (
@@ -22,6 +45,7 @@ const Me = () => {
 						<img
 							style={{ width: 450, borderRadius: 10 }}
 							src={image}
+							alt=''
 						/>
 
 						<ul
@@ -53,6 +77,34 @@ const Me = () => {
 								Battlefield or being snobby with coffee.
 							</p>
 							<p className='me-text'>Connect with me!</p>
+							<div className='contact'>
+								<a
+									href='https://github.com/adil1508'
+									target='_blank'
+									rel='noopener noreferrer'>
+									<IconButton style={buttonStyle}>
+										<GitHubIcon style={linkStyle} />
+									</IconButton>
+								</a>
+
+								<a
+									href='https://www.linkedin.com/in/adilmian/'
+									target='_blank'
+									rel='noopener noreferrer'>
+									<IconButton style={buttonStyle}>
+										<LinkedInIcon style={linkStyle} />
+									</IconButton>
+								</a>
+
+								<a
+									href='mailto:adilmian95@gmail.com'
+									target='_blank'
+									rel='noopener noreferrer'>
+									<IconButton style={buttonStyle}>
+										<EmailIcon style={linkStyle} />
+									</IconButton>
+								</a>
+							</div>
 						</ul>
 					</div>
 				</Card>
@@ -66,6 +118,17 @@ const bodyStyles = {
 	display: "flex",
 	maxWidth: "80vw",
 	borderRadius: "15px",
+};
+
+const buttonStyle = {
+	marginRight: 30,
+	marginLeft: 30,
+	padding: 50,
+};
+
+const linkStyle = {
+	fontSize: 54,
+	color: "#151a28",
 };
 
 export default Me;
