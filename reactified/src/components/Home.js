@@ -3,6 +3,7 @@ import { withStyles } from "@material-ui/core/styles";
 import { Button } from "@material-ui/core";
 import Particles from "react-particles-js";
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 const ColorButton = withStyles(() => ({
 	root: {
@@ -47,7 +48,9 @@ const Home = () => {
 				<p className='main-text'>i like to code</p>
 			</div>
 			<div className='navigation'>
-				<ColorButton>Projects</ColorButton>
+				<Link to='/projects'>
+					<ColorButton>Projects</ColorButton>
+				</Link>
 				<ColorButton>Resume</ColorButton>
 				<ColorButton>Me</ColorButton>
 			</div>
